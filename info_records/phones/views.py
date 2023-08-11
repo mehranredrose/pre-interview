@@ -11,3 +11,6 @@ def add_phone(request):
         if form.is_valid():
             phone = form.save()
         return render(request, 'done.html')    
+
+def report(request):
+    pass
