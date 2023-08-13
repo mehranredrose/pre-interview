@@ -1,0 +1,118 @@
+[  
+    {    
+        "model": "phones.brand",
+        "pk": 1,    
+        "fields": {      
+            "name": "Samsung",
+            "nationality": "Korea"
+        }  
+    },
+    {    
+        "model": "phones.brand",
+        "pk": 2,    
+        "fields": {      
+            "name": "Apple",
+            "nationality": "USA"
+        }  
+    },
+    {    
+        "model": "phones.brand",
+        "pk": 3,    
+        "fields": {      
+            "name": "Xiaomi",
+            "nationality": "China"
+        }  
+    },
+    {    
+        "model": "phones.mobile",
+        "pk": 1,    
+        "fields": {      
+            "brand": "Samsung",
+            "model": "Galaxy S20 White",
+            "price": 700,
+            "color": "White",
+            "display_size": 6.5,
+            "is_available": true,
+            "made_in": "Korea"
+        }  
+    },
+    {    
+        "model": "phones.mobile",
+        "pk": 2,    
+        "fields": {      
+            "brand": "Samsung",
+            "model": "Galaxy S20 Black",
+            "price": 650,
+            "color": "Black",
+            "display_size": 6.5,
+            "is_available": true,
+            "made_in": "Korea"
+        }  
+    },
+    {    
+        "model": "phones.mobile",
+        "pk": 3,    
+        "fields": {      
+            "brand": "Samsung",
+            "model": "Galaxy S20+ Black",
+            "price": 750,
+            "color": "Black",
+            "display_size": 6.5,
+            "is_available": true,
+            "made_in": "China"
+        }  
+    },
+    {    
+        "model": "phones.mobile",
+        "pk": 4,    
+        "fields": {      
+            "brand": "Apple",
+            "model": "Apple iPhone 12",
+            "price": 1000,
+            "color": "Gold",
+            "display_size": 6.1,
+            "is_available": false,
+            "made_in": "China"
+        }  
+    },
+    {    
+        "model": "phones.mobile",
+        "pk": 5,    
+        "fields": {      
+            "brand": "Apple",
+            "model": "Apple iPhone 12 Pro",
+            "price": 1100,
+            "color": "Silver",
+            "display_size": 6.1,
+            "is_available": true,
+            "made_in": "China"
+        }  
+    },
+    {    
+        "model": "phones.mobile",
+        "pk": 6,    
+        "fields": {      
+            "brand": "Xiaomi",
+            "model": "Mi 11 Pro",
+            "price": 850,
+            "color": "White",
+            "display_size": 6.5,
+            "is_available": true,
+            "made_in": "China"
+        }  
+    },
+    {    
+        "model": "phones.mobile",
+        "pk": 7,    
+        "fields": {      
+            "brand": "Xiaomi",
+            "model": "Mi 11X",
+            "price": 800,
+            "color": "Blue",
+            "display_size": 6.5,
+            "is_available": true,
+            "made_in": "China"
+        }  
+    }
+]
+

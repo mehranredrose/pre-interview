@@ -12,7 +12,7 @@ def add_phone(request):
         phone = AddPhoneForm(request.POST)
         if form.is_valid():
             phone = form.save()
-            return HttpResponse(status=200)    
+            return HttpResponse('Done!', status=201)    
         return HttpResponse('Error', status=400)
     #we can write this  CreateAPIView
     
